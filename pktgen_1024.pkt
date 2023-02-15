@@ -1,0 +1,11 @@
+enable 0 range
+range 0 dst mac 00:00:5e:00:01:00 00:00:5e:00:01:00 00:00:5e:00:01:00 00:00:00:00:00:00
+range 0 src mac aa:bb:cc:dd:ee:50 aa:bb:cc:dd:ee:50 aa:bb:cc:dd:ee:50 00:00:00:00:00:00
+range 0 dst ip 1.1.61.2 1.1.61.2 1.1.61.200 0.0.0.1
+range 0 src ip 1.1.52.2 1.1.52.2 1.1.52.200 0.0.0.1
+range 0 dst port 1024 1024 49151 1
+range 0 src port 49152 49152 65535 1
+range 0 size 1024 1024 1024 0
+set 0 size 1518
+set 0 count 0
+set 0 rate 1
