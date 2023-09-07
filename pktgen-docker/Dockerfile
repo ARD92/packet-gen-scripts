@@ -16,8 +16,6 @@ RUN apt-get update && \
     apt-get -y install libhugetlbfs-dev && \
     apt-get -y install build-essential && \
     apt-get -y install git && \
-    git config --global http.proxy http://proxy-us.intel.com:911 && \
-    git config --global https.proxy http://proxy-us.intel.com:912 && \
     git clone https://dpdk.org/git/dpdk dpdk-21.11
 
 WORKDIR /root/dpdk-21.11
