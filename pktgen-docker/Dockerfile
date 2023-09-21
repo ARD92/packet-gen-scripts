@@ -1,7 +1,5 @@
 FROM ubuntu:20.04
 
-ENV http_proxy=http://proxy-us.intel.com:911
-ENV https_proxy=http://proxy-us.intel.com:912
 ENV PKGCONFIG_PATH=/usr/local/lib/x86_64-linux-gnu/pkgconfig/
 ENV DEBIAN_FRONTEND=noninteractive
 
